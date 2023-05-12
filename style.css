@@ -1,0 +1,92 @@
+body {
+    font-family: 'Courier New', Courier, monospace, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d3d3d;
+    font-size: medium;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    color:#fff
+}
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+    max-height: auto;
+    max-width: auto;
+    background-color: #9ba8aa;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin-left:auto;
+    padding: 10px 20px;
+    background-color: #12bd59;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#reset {
+    margin-left: 10px;
+    margin-top: -34px;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#reset:hover {
+    background-color: #d32f2f;
+}
+
+#tip-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.tip-btn {
+    background-color: #ce267a9f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.tip-btn:hover {
+    background-color: #320b8c;
+}
+  
